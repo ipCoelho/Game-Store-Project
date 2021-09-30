@@ -1,0 +1,8 @@
+footer{
+    width: inherit;
+    height: 20px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 1rem;
+}
