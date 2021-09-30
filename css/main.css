@@ -1,25 +1,28 @@
+@font-face {
+    font-family: Azonix;
+    src: url(../fonts/azonix/Azonix.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Azonix;
 }
 
 body{
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: azure;
 }
 
 main{
+    width: 100%;
     flex-grow: 1;
-    background-color: red;
-}
-
-footer{
-    height: 50px;
-    background-color: bisque;
 }
