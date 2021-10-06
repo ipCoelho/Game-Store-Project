@@ -1,3 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Azonix;
+    --red: #E51400;
+}
+
 @font-face {
     font-family: Azonix;
     src: url(../fonts/azonix/Azonix.otf);
@@ -5,12 +13,6 @@
     font-style: normal;
 }
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Azonix;
-}
 
 body{
     width: 99vw;
