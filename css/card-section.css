@@ -2,6 +2,7 @@
     width: 100%;
     height: auto;
     min-height: 500px;
+    max-height: 1200px;
     display: flex;
     flex-flow: row wrap;
     background-color: rgb(0, 0, 0);
@@ -21,7 +22,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 10px;
+    padding-top: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -29,14 +30,14 @@
     border-radius: 10px;
     border: solid 1px grey;
     color: white;
-    background-image: url(/img/darksoulsCardjpg.jpg);
+    background-image: url(/img/logo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
 }
 .card-item img{
     width: 100%;
-    height: 50%;
+    height: 70%;
     border: solid 2px grey;
 }
 .card-item p{
@@ -44,7 +45,9 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .card-item h3{
-    margin-top: -50px;
+    margin-left: 10px;
+    margin-bottom: 35px;
+    font-size: 1.2rem;
 }
 .card-item .infovalue-conteiner{
     width: 95%;
@@ -57,9 +60,68 @@
 .infovalue-conteiner .card-moreinfo{
     width: 30%;
     height: 20px;
-    border-radius: 5px;
+    border-radius: 0px;
     font-size: 0.7rem;
+    margin-left: 10px;
+    position: relative;
+    background-color: black;
+    border: solid 1px darkgrey;
+    color: white;
+    
 }
+.infovalue-conteiner .card-moreinfo:hover{
+    background-color: var(--red);
+    transform: scale(1.05);
+    transition: 1s ease-in-out;
+}
+
 .infovalue-conteiner .value{
     font-size: 2rem;
+}
+
+.moreinfo-conteiner{
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    margin-top: 25px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+    border: 1px solid darkgrey;
+}
+
+.moreinfo-conteiner .tail{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    left: 30px;
+    top: -15px;
+    transform: rotate(45deg);
+    opacity: 0;
+    visibility: hidden;
+    border-top: solid 1px darkgrey;
+    border-left: solid 1px darkgrey;
+}
+
+.infovalue-conteiner .card-moreinfo:hover .moreinfo-conteiner{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s ease-in-out;
+}
+
+.infovalue-conteiner .card-moreinfo:hover .moreinfo-conteiner .tail{
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s ease-in-out;
+}
+
+.card-desc{
+    font-size: 1rem;
+    position: relative;
+    top: 50px;
+    color: black;
+    text-align: left;
+    margin: 5px 10px 5px 10px;
 }
