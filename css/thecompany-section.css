@@ -1,0 +1,45 @@
+#thecompany-conteiner{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#thecompany-text{
+    width: 60%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#thecompany-text p{
+    width: 100%;
+    height: auto;
+    padding: 10px 0 10px 0;
+    text-align: end;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+}
+
+
+/* -------------------------------------------------------------------------------- */
+#thecompany-img{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0% 100%, 130px 0px, 100% 0px, 100% 100%);
+
+}
+#thecompany-img img{
+    height: 90%;
+    width: auto;
+}

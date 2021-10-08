@@ -1,8 +1,13 @@
 footer{
     width: inherit;
-    height: 20px;
+    height: 30px;
     color: white;
     background-color: black;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
 }

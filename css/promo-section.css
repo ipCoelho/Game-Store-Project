@@ -1,0 +1,26 @@
+#promo-conteiner{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    border-top: solid 1px grey;
+    border-bottom: solid 1px grey;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 20px 50px 20px 50px;
+}
+
+.promo-conteiner{
+    display: flex;
+    flex-direction: column;
+    /* align-items:; */
+    /* justify-content: space-around; */
+}
+
+.promo{
+    position: relative;
+    bottom: 10px;
+    text-decoration: line-through;
+}
