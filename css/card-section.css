@@ -46,6 +46,8 @@
 .card-item p{
     margin-top: -50px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+
 }
 .card-item h3{
     margin-left: 10px;
@@ -76,7 +78,7 @@
     /* background-color: var(--red); */
     /* color: var(--red); */
     border: var(--red) 1px solid;
-    transform: scale(1.05);
+    /* transform: scale(1.05); */
     transition: 1s ease-in-out;
 }
 
@@ -87,7 +89,7 @@
 .moreinfo-conteiner{
     width: 250px;
     height: 150px;
-    background-color: white;
+    background-color: rgba(128, 128, 128, 1);
     margin-top: 25px;
     position: absolute;
     opacity: 0;
@@ -99,7 +101,7 @@
 .moreinfo-conteiner .tail{
     width: 30px;
     height: 30px;
-    background-color: white;
+    background-color: rgba(128, 128, 128, 1);
     position: absolute;
     left: 30px;
     top: -15px;
@@ -108,6 +110,7 @@
     visibility: hidden;
     border-top: solid 1px darkgrey;
     border-left: solid 1px darkgrey;
+
 }
 
 .infovalue-conteiner .card-moreinfo:hover .moreinfo-conteiner{
