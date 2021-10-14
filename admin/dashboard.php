@@ -6,42 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerenciamento de Conteúdo do Site</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
-<header>
-    <div id="title-conteiner">
-        <h1>CMS</h1>
-        <h3>Azonix Game Store&trade;<br>Gerenciamento de Conteúdo do Site</h3>
-    </div>
-    <div id="logo-conteiner">
-        <a href="../index.html" target="_blank">
-            <img src="img/logoIcon.png" alt="">
-        </a>
-    </div>
-</header>
+    <header>
+        <div id="header-login-conteiner">
+            <div id="title-conteiner">
+                <h1>CMS</h1>
+                <h3>Azonix Game Store&trade;<br>Gerenciamento de Conteúdo do Site</h3>
+            </div>
+            <div id="logo-conteiner">
+                <a href="../index.html" target="_blank">
+                    <img src="img/logoIcon.png" alt="">
+                </a>
+            </div>
+        </div>
+    </header>
     <main>
         <div id="dashboard-conteiner">
             <div id="category-conteiner">
                 <div class="category-item">
-                    <img src="../img/gear.jpg" alt="Cadastrar">
-                    <a href="dashboard/register-games.html">Adm. de Jogos</a>
+                    <img src="img/gear.jpg" alt="Cadastrar">
+                    <a href="dashboard/register-games.php">Adm. de Jogos</a>
                 </div>
                 <div class="category-item">
-                    <img src="../img/gear.jpg" alt="Cadastrar">
-                    <a href="dashboard/register-genre.html">Adm. de Gêneros</a>
+                    <img src="img/gear.jpg" alt="Cadastrar">
+                    <a href="dashboard/register-genre.php">Adm. de Gêneros</a>
                 </div>
                 <div class="category-item">
-                    <img src="../img/gear.jpg" alt="Cadastrar">
-                    <a href="dashboard/register-image.html">Adm. de Imagens</a>
+                    <img src="img/gear.jpg" alt="Cadastrar">
+                    <a href="dashboard/register-image.php">Adm. de Imagens</a>
                 </div>
                 <div class="category-item">
-                    <img src="../img/gear.jpg" alt="Cadastrar">
-                    <a href="dashboard/register-user.html">Usuários</a>
+                    <img src="img/gear.jpg" alt="Cadastrar">
+                    <a href="dashboard/register-user.php">Usuários</a>
                 </div>
             </div>
             <div id="login-conteiner">
                 <h2>Bem vindo *usuario*</h2>
-                <img src="../img/home.jpg" alt="">
+                <img src="img/home.jpg" alt="">
                 <a href="login.php">Logout</a>
             </div>
         </div>
