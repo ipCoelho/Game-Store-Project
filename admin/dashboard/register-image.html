@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerenciamento de Conteúdo do Site</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/form.css">
 </head>
 <body>
     <header>
@@ -14,7 +15,9 @@
             <h3>Azonix Game Store&trade;<br>Gerenciamento de Conteúdo do Site</h3>
         </div>
         <div id="logo-conteiner">
-            <img src="../../img/logoIcon.png" alt="">
+            <a href="/index.html">
+                <img src="../../img/logoIcon.png" alt="">
+            </a>
         </div>
     </header>
     <main>
@@ -42,6 +45,25 @@
                 <img src="../../img/home.jpg" alt="">
                 <button>Logout</button>
             </div>
+        </div>
+        <div class="form-conteiner">
+            <form action="" method="post">
+                <div class="input-conteiner">
+                    <div class="input-item">
+                        <label for="">Nome:</label>
+                        <input type="text" maxlength="75" name="" id="name">
+                    </div>
+                    <div class="input-item">
+                        <label for="">URL:</label>
+                        <input type="url" maxlength="90" name="" id="url">
+                    </div>
+                    <div class="input-item">
+                        <label for="">Imagem:</label>
+                        <input type="file" name="" id="image">
+                    </div>
+                </div>
+                <button type="submit">Cadastrar</button>
+            </form>
         </div>
     </main>
     <footer>
